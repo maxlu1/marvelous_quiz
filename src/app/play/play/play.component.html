@@ -1,0 +1,11 @@
+<app-toolbar></app-toolbar>
+
+<section class="play-loading" *ngIf="playService.isLoading || !character">
+    <mat-spinner class="play-spinner" color="warn"></mat-spinner>
+    <p class="play-loadingText">Loading... please wait!</p>
+</section>
+
+<section class="play-controlsArea" *ngIf="!playService.isLoading && character">
+    <app-showcase-card [picture]="character?.picture"></app-showcase-card>
+    <app-controls [chalenge]="character" (nextChalenge)="setChalenge()"></app-controls>
+</section>

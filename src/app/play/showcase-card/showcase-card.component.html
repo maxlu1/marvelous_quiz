@@ -1,0 +1,9 @@
+<div class="showcase-posterConatiner">
+    <img class="showcase-imagePoster" (load)="loadImageComplete()" mat-card-image [src]="picture">
+    <section *ngIf="!pictureLoaded">
+        <mat-progress-bar color="warn" mode="indeterminate" ></mat-progress-bar>
+        <p style="color:white">Fetching picture...</p>
+    </section>
+    <mat-chip class="showcase-whoIsIt" color="warn" *ngIf="playService.whoIsIt.length" selected>{{playService.whoIsIt}}
+    </mat-chip>
+</div>

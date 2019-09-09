@@ -1,0 +1,21 @@
+%center-element
+    transform: translate(-50%)
+    left: 50%
+
+.play
+    &-spinner
+        left: -50px
+        margin-left: 50%
+        margin-top: 5vh
+    &-loadingText
+        color: #ffffff
+        text-align: center
+    &-controlsArea
+        position: relative
+        float: left
+        padding-top: 32px
+        @extend %center-element
+        width: 100%
+        max-width: 840px
+        @media only screen and (max-width: 840px)
+            padding-top: 0px

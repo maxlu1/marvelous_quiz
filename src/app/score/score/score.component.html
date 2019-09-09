@@ -1,0 +1,22 @@
+<h1 class="score-message">{{feedbackMessage}}</h1>
+<h3 class="score-points">Your score: {{scorePoints}} </h3>
+<button mat-stroked-button color="warn" class="score-buttonRestart" (click)="onRestart()">RESTART</button>
+<hr>
+<div class="score-deck">
+    <mat-card class="score-card" *ngFor="let performance of score">
+        <mat-card-header>
+            <mat-card-title>{{performance.characterName}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image class="score-cardImage" [src]="performance.picture">
+        <mat-card-actions>
+            <mat-chip *ngIf="performance.success" class="score-success" selected>
+                Success
+                <mat-icon class="score-icon">check_circle</mat-icon>
+            </mat-chip>
+            <mat-chip *ngIf="!performance.success" class="score-fail" selected>
+                Fail
+                <mat-icon class="score-icon">error</mat-icon>
+            </mat-chip>
+        </mat-card-actions>
+    </mat-card>
+</div>

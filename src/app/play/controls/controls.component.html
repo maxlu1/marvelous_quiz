@@ -1,0 +1,23 @@
+<mat-card class="controls">
+    <mat-card-content>
+        <h2 class="controls-question">What's the name of this Marvel character?</h2>
+    </mat-card-content>
+    <mat-card-actions>
+        <form [formGroup]="playForm">
+            <mat-form-field class="controls-characterName" color="warn">
+                <input matInput placeholder="Character's name" type="text" name="characterName"
+                    formControlName="characterName">
+                <mat-error *ngIf="!playForm.get('characterName').valid">
+                    Please, enter a name for the character aside.
+                </mat-error>
+            </mat-form-field>
+
+            <button mat-flat-button color="warn" [disabled]="!playForm.valid" type="submit"
+                (click)="onAnswer(true)">ANSWER</button>
+            <button mat-stroked-button color="warn" class="controls-nextButton" (click)="onAnswer(false)">Next</button>
+            <hr>
+            <button mat-stroked-button color="accent" class="controls-giveupButton" (click)="onGiveup()">I give up, who
+                is it?</button>
+        </form>
+    </mat-card-actions>
+</mat-card>
