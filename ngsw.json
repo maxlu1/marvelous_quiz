@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1568037338107,
+  "timestamp": 1568038607671,
   "index": "/marvelous_quiz/marvelous_quiz/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,6 @@
         "/marvelous_quiz/7-es5.5c3e0c03e91d9fd9670e.js",
         "/marvelous_quiz/8-es2015.4bce768316d6eaf498b6.js",
         "/marvelous_quiz/favicon.ico",
-        "/marvelous_quiz/index.html",
         "/marvelous_quiz/main-es2015.22cb06687273244a63da.js",
         "/marvelous_quiz/main-es5.f3d5cfe31e3765dd7562.js",
         "/marvelous_quiz/manifest.webmanifest",
@@ -73,7 +72,6 @@
     "/marvelous_quiz/assets/images/cover_start_hero.jpg": "b2030054a8e8814a15ee0d6e80e9d56a2b977083",
     "/marvelous_quiz/cover_start_hero.302011ffd922f948d59c.jpg": "b2030054a8e8814a15ee0d6e80e9d56a2b977083",
     "/marvelous_quiz/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/marvelous_quiz/index.html": "1bf37babf67fbd0c98421665bb8fbb0d95fa7adb",
     "/marvelous_quiz/main-es2015.22cb06687273244a63da.js": "724c5cbc12d921f5447ad33d28a000404c711497",
     "/marvelous_quiz/main-es5.f3d5cfe31e3765dd7562.js": "2d202511a6cc2f3e63c6cfde969e0d8f6f428e37",
     "/marvelous_quiz/manifest.webmanifest": "4b4ba472fd99f04050c415ecf76d453595928a69",
