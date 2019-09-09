@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1568039073420,
+  "timestamp": 1568039503568,
   "index": "/marvelous_quiz/marvelous_quiz/index.html",
   "assetGroups": [
     {
@@ -74,7 +74,7 @@
     "/marvelous_quiz/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/marvelous_quiz/main-es2015.22cb06687273244a63da.js": "724c5cbc12d921f5447ad33d28a000404c711497",
     "/marvelous_quiz/main-es5.f3d5cfe31e3765dd7562.js": "2d202511a6cc2f3e63c6cfde969e0d8f6f428e37",
-    "/marvelous_quiz/manifest.webmanifest": "e4de40bee69db8c964a68fe3fac13e88074f488d",
+    "/marvelous_quiz/manifest.webmanifest": "a989b384352e2379e4baac21cd8dc3c14ec5fbbe",
     "/marvelous_quiz/polyfills-es2015.d820c83f34f12a2d5011.js": "e8cc123d575759a8ae57bd6247f3e0c3c84f9de8",
     "/marvelous_quiz/polyfills-es5.8f20c0cd0d3c73640139.js": "51cc85b08d40b40d297c9b56f7574c508dab9f1d",
     "/marvelous_quiz/runtime-es2015.c1962fb44d0a9285f3c8.js": "be6d6967c956491bb6642ecf3397230880b2b465",
