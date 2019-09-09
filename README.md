@@ -1,5 +1,7 @@
 # The Marvelous Quiz - test prático de front-end developer: Verity Group
 
+![alt text](https://raw.githubusercontent.com/maxlu1/marvelous_quiz/master/screen_image_mnd2517adja.jpg)
+
 ## 1. Recursos 
 * Este projeto foi desenvolvido em Angular (8.2.1);
 * Como framework CSS, foi Angular Material (8.1.4);
