@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1568040205759,
+  "timestamp": 1568041797439,
   "index": "/marvelous_quiz/marvelous_quiz/index.html",
   "assetGroups": [
     {
@@ -38,6 +38,7 @@
         "/marvelous_quiz/assets/icons/icon-128x128.png",
         "/marvelous_quiz/assets/icons/icon-144x144.png",
         "/marvelous_quiz/assets/icons/icon-152x152.png",
+        "/marvelous_quiz/assets/icons/icon-180x180.png",
         "/marvelous_quiz/assets/icons/icon-192x192.png",
         "/marvelous_quiz/assets/icons/icon-384x384.png",
         "/marvelous_quiz/assets/icons/icon-512x512.png",
@@ -64,6 +65,7 @@
     "/marvelous_quiz/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/marvelous_quiz/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/marvelous_quiz/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/marvelous_quiz/assets/icons/icon-180x180.png": "871f30c66c212520e8f0f5392309295cbd11cdee",
     "/marvelous_quiz/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
     "/marvelous_quiz/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
     "/marvelous_quiz/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
@@ -74,7 +76,7 @@
     "/marvelous_quiz/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/marvelous_quiz/main-es2015.22cb06687273244a63da.js": "724c5cbc12d921f5447ad33d28a000404c711497",
     "/marvelous_quiz/main-es5.f3d5cfe31e3765dd7562.js": "2d202511a6cc2f3e63c6cfde969e0d8f6f428e37",
-    "/marvelous_quiz/manifest.webmanifest": "d22c58ce2991e2ede48e45a84cfe6a89844a4fc1",
+    "/marvelous_quiz/manifest.webmanifest": "17671d17e83f1df85be01d83276520931cdfd43b",
     "/marvelous_quiz/polyfills-es2015.d820c83f34f12a2d5011.js": "e8cc123d575759a8ae57bd6247f3e0c3c84f9de8",
     "/marvelous_quiz/polyfills-es5.8f20c0cd0d3c73640139.js": "51cc85b08d40b40d297c9b56f7574c508dab9f1d",
     "/marvelous_quiz/runtime-es2015.c1962fb44d0a9285f3c8.js": "be6d6967c956491bb6642ecf3397230880b2b465",
